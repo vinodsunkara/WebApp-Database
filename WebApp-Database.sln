@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8671FA32-FB94-4FED-B525-538EA310A97F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{8671FA32-FB94-4FED-B525-538EA310A97F}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebApp.Database", "WebApp.Database\WebApp.Database.sqlproj", "{29A2D6B6-FB30-44A9-8F14-F8CBDE514BA6}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup", "AzureResourceGroup\AzureResourceGroup.deployproj", "{5D74B2D6-1E8F-4EF5-AAA1-87EA057C615B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{29A2D6B6-FB30-44A9-8F14-F8CBDE514BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A2D6B6-FB30-44A9-8F14-F8CBDE514BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29A2D6B6-FB30-44A9-8F14-F8CBDE514BA6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5D74B2D6-1E8F-4EF5-AAA1-87EA057C615B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D74B2D6-1E8F-4EF5-AAA1-87EA057C615B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D74B2D6-1E8F-4EF5-AAA1-87EA057C615B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D74B2D6-1E8F-4EF5-AAA1-87EA057C615B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
